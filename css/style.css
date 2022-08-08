@@ -51,6 +51,7 @@ h3{
 h5{
     font: .75em Helvetica;
     color: #444444;
+    padding: 10px 0 0 0;
 }
 article img {
     padding: 19px 0 17px 0;
@@ -69,6 +70,13 @@ hr {
     clear: both;
 }
 .col { padding: 20px 10px }
+
+article p {
+    font: .7em Helvetica ;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #3e3e3e;
+}
 .btn1 {
     font: .75em Helvetica;
     color: #016999;
@@ -78,6 +86,7 @@ hr {
     border-radius: 4px;
     background: linear-gradient(to right, #e8e8e8, #f6f6f6, #e8e8e8, #eaeaea);
     text-align: left;
+    margin: 15px 0;
 }
 .btn1 span { float: right}
 
@@ -88,17 +97,57 @@ hr {
     float: left;
     padding: 4px 2px 0 0;
 }
+.letter-item{
+    margin: 42px 0 0 0;
+}
+.letter{
+    font: bold 1.1em Gill Sans;
+    color: #444444;
+}
+.letter-text{
+    font: .7em Helvetica;
+    color: #444444;
+    padding: 2px 0 10px 0;
+}
+.input-mail{
+    margin: 0 0 13px 0;
+   
+}
+input{
+    border: 1px solid #dedede;
+    border-radius: 4px ;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 14px 0;
+    width: 100%;
+}
+.contact-message input{
+    padding: 0 0 120px 0;
+}
+.mid-btn{
+    padding: 11px 0 0 0;
+}
+.btn-2{
+    padding: 9px 12px;
+    font: .7em Georgia;
+    color: #ffffff;
+    width: 160px;
+    border: 2px solid #6aa0cb;
+    border-radius: 6px;
+    background: linear-gradient(to right, #4980b7, #4c83ba, #4477aa, #416e9a);
+    text-align: left;
+}
+.btn-2 span{
+    float: right;
+}
 .update-list{
     border-top: dotted ;
 }
 .update-item {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-bottom: 1px dotted grey;
+    padding: 10px 0 10px 0;
 }
 .update-avatar {
     float: left;
-    padding: 3px;
+    padding: 4px;
     background: #f0f0f0;
     border-color: #cfcfcf;
     border-width: 1px;
@@ -119,7 +168,17 @@ footer{
     background: #333;
     border-top: 10px solid #4c4c4c  ;
 }
-
+footer .container{
+    padding: 17px 0 ;
+    font: .7em Helvetica;
+    color: #999999;
+}
+.footer-left{
+    float: left;
+}
+.footer-right{
+    float: right;
+}
 @media only screen and (min-width: 768px) {
     nav { text-align: inherit }
     nav ul { float: right; }
